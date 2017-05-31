@@ -1,4 +1,1 @@
-ls
-pwd
-cp * /deployments
-ls /deployments
+pwd && ls /tmp/src/ && cp -Rf /tmp/src/. ./
