@@ -1,4 +1,5 @@
 echo "--assembling"
 du / -h -d 1
+mv /tmp/src/* /cuatoi
 
 
