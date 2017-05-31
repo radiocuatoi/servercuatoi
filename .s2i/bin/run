@@ -1,4 +1,2 @@
-echo "---Run"
-pwd
-ls
-timeout 1h
+echo "---starting..."
+timeout 18h sh server.sh

@@ -1,2 +1,2 @@
-echo "------This is from Dung"
+echo "--assembling"
 ls /tmp/src
