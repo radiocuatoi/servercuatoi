@@ -1,1 +1,1 @@
-sh server.sh
+sh server.sh &
