@@ -1,2 +1,4 @@
 echo "---starting..."
-timeout 18h sh server.sh
+pwd
+find / | grep server.sh
+sh ${find / | grep server.sh}
