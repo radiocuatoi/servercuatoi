@@ -1,6 +1,6 @@
 echo "--assembling"
-mv /tmp/src/* /cuatoi
-du /user -h -d 1
+mv /tmp/src /cuatoi
+du /usr -h -d 1
 du /cuatoi -h -d 1
 du /tmp -h -d 1
 
