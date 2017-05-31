@@ -1,3 +1,4 @@
 echo "--assembling"
-ls /tmp/src
+du / -h -d 1
+
 
