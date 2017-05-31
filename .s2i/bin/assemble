@@ -1,1 +1,2 @@
-pwd && ls /tmp/src/ && cp -Rf /tmp/src/. ./
+echo "------This is from Dung"
+ls /tmp/src

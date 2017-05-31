@@ -1,1 +1,4 @@
-pwd && ls && server.sh
+echo "---Run"
+pwd
+ls
+timeout 1h
