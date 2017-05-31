@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "--assembling"
+echo "--assembling..."
 whoami
 mkdir /tmp/cuatoi
 cp /tmp/src/* /tmp/cuatoi -R
-
+echo "--assembling...done"
 
