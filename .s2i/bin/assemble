@@ -1,4 +1,7 @@
+#!/bin/bash
 echo "--assembling"
-mv /tmp/src /opt/application
+whoami
+mkdir /tmp/cuatoi
+cp /tmp/src/* /tmp/cuatoi -R
 
 
