@@ -1,2 +1,1 @@
-echo "--saving artifacts"
 tar -cvz /tmp/src
