@@ -1,1 +1,2 @@
-tar -cvz /tmp/src
+cd /tmp/src
+tar -cz ./

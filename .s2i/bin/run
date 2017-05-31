@@ -1,4 +1,3 @@
 echo "---starting..."
-pwd
-find / | grep server.sh
-sh ${find / | grep server.sh}
+find | grep server.sh
+./server.sh
