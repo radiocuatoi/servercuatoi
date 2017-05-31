@@ -1,3 +1,3 @@
-echo "---starting..."
+echo "---starting....."
 cd /tmp/cuatoi
 ./server.sh 
