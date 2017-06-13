@@ -9,6 +9,7 @@ echo "Downloading to ${DOWNLOAD_DIR}"
 if [ ! -d ${DOWNLOAD_DIR} ]; then
     mkdir -p ${DOWNLOAD_DIR}
 fi;
+find /tmp -ctime +10 -exec rm -rf {} +
 cd ${DOWNLOAD_DIR}
 rm -rf master.zip
 rm -rf servercuatoi-master
