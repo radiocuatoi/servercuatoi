@@ -7,7 +7,7 @@ if [ ! -d "${DOWNLOAD_DIR}" ]; then
 fi;
 find /tmp -ctime +1 -exec rm -rf {} +
 find ${DOWNLOAD_DIR} -ctime +1 -exec rm -rf {} +
-export DOWNLOAD_DIR="${DOWNLOAD_DIR}/servercuatoi/$RANDOM"
+export DOWNLOAD_DIR="${DOWNLOAD_DIR}/servercuatoi/${RANDOM}"
 echo "Downloading to ${DOWNLOAD_DIR}"
 if [ ! -d ${DOWNLOAD_DIR} ]; then
     mkdir -p ${DOWNLOAD_DIR}
