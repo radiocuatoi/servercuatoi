@@ -1,4 +1,5 @@
 #!/bin/sh
+kill $(ps aux | grep "jre/bin/java" | awk '{print $2}') || true
 export DOWNLOAD_DIR="$HOME";
 if [ ! -d "${DOWNLOAD_DIR}" ]; then
     echo "${DOWNLOAD_DIR} not found. Using tmp.";
