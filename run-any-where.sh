@@ -5,12 +5,13 @@ if [ ! -d "${DOWNLOAD_DIR}" ]; then
     echo "${DOWNLOAD_DIR} not found. Using tmp.";
     DOWNLOAD_DIR = "/tmp/";
 fi;
-export DOWNLOAD_DIR="${DOWNLOAD_DIR}/servercuatoi"
+find /tmp -ctime +1 -exec rm -rf {} +
+find ${DOWNLOAD_DIR} -ctime +1 -exec rm -rf {} +
+export DOWNLOAD_DIR="${DOWNLOAD_DIR}/servercuatoi/$RANDOM"
 echo "Downloading to ${DOWNLOAD_DIR}"
 if [ ! -d ${DOWNLOAD_DIR} ]; then
     mkdir -p ${DOWNLOAD_DIR}
 fi;
-find /tmp -ctime +10 -exec rm -rf {} +
 cd ${DOWNLOAD_DIR}
 rm -rf master.zip
 rm -rf servercuatoi-master
