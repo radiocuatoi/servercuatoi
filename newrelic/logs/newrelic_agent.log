@@ -1443,3 +1443,1015 @@ May 31, 2017 10:37:19 +0700 [10689 27] com.newrelic INFO: Using RUM version 1026
 May 31, 2017 10:37:19 +0700 [10689 27] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
 May 31, 2017 10:37:51 +0700 [10689 5] com.newrelic.agent.Agent INFO: JVM is shutting down
 May 31, 2017 10:37:51 +0700 [10689 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Jun 14, 2017 15:16:07 +0700 [5418 1] com.newrelic INFO: Writing to New Relic log file: /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/logs/newrelic_agent.log
+Jun 14, 2017 15:16:07 +0700 [5418 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_121
+Jun 14, 2017 15:16:07 +0700 [5418 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.121-b13
+Jun 14, 2017 15:16:07 +0700 [5418 1] com.newrelic INFO: OS Linux version 4.8.0-54-generic arch amd64
+Jun 14, 2017 15:16:07 +0700 [5418 1] com.newrelic INFO: Agent Host: dev2315.c.dungviettran89-165514.internal IP: 10.148.0.2
+Jun 14, 2017 15:16:07 +0700 [5418 1] com.newrelic INFO: New Relic Agent v3.39.0 is initializing...
+Jun 14, 2017 15:16:08 +0700 [5418 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Jun 14, 2017 15:16:08 +0700 [5418 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.util.EncodingAwareJsonSerializer
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-request-listener is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-connection-5.1.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.10.1.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openjpa-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-jtds is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sqlserver is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-socket is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.14 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-8.0-312.jdbc3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-merlia is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.11.1.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java-io is disabled. Skipping.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.1.7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-6.4.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-db2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.1
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.2
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-base is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-generic is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-wrap-0.7.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.async-http-client-2.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-oranxo is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.5 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.2.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-5.1.3 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1208 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7.0.70 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.1
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.4.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.4
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.8
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-h2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.slick-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.2
+Jun 14, 2017 15:16:08 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-2.2.9 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Jun 14, 2017 15:16:08 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Jun 14, 2017 15:16:08 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-http-client-1.3.1 is disabled. Skipping.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-3.0.8 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.0
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sybase-6 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jax-rs-1.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8u40 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei1 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Using deprecated configuration setting scala_instrumentation for instrumentation com.newrelic.instrumentation.scala-2.9.3
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1207 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.8
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.1.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.9.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.3
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.0
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-driver is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-1.7.2.2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.6 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.1.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.4.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12.2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-client-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-1 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.2.1.6 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-ojdbc is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.0
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spymemcached-2.12.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.0.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.8.0 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.5 is enabled. Loading.
+Jun 14, 2017 15:16:09 +0700 [5418 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Jun 14, 2017 15:16:13 +0700 [5418 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Jun 14, 2017 15:16:13 +0700 [5418 1] com.newrelic INFO: Setting audit_mode to false
+Jun 14, 2017 15:16:13 +0700 [5418 1] com.newrelic INFO: Setting protocol to "https"
+Jun 14, 2017 15:16:15 +0700 [5418 23] com.newrelic WARN: Failed to validate AWS value null
+Jun 14, 2017 15:16:15 +0700 [5418 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/./newrelic.yml
+Jun 14, 2017 15:16:15 +0700 [5418 1] com.newrelic INFO: New Relic Agent v3.39.0 has started
+Jun 14, 2017 15:16:15 +0700 [5418 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@2cdf8d8a
+Jun 14, 2017 15:16:15 +0700 [5418 1] com.newrelic INFO: Premain startup complete in 8,530ms
+Jun 14, 2017 15:16:20 +0700 [5418 27] com.newrelic INFO: Host name is dev2315.c.dungviettran89-165514.internal, display host dev2315.c.dungviettran89-165514.internal for application My Application
+Jun 14, 2017 15:16:20 +0700 [5418 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Jun 14, 2017 15:16:21 +0700 [5418 27] com.newrelic INFO: Collector redirection to collector-199.newrelic.com:443
+Jun 14, 2017 15:16:22 +0700 [5418 27] com.newrelic INFO: Agent run id: 234157253686417003
+Jun 14, 2017 15:16:22 +0700 [5418 27] com.newrelic INFO: Agent 5418@dev2315.c.dungviettran89-165514.internal/My Application connected to collector.newrelic.com:443
+Jun 14, 2017 15:16:22 +0700 [5418 27] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1642054/applications/50908582
+Jun 14, 2017 15:16:22 +0700 [5418 27] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for My Application: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@4c0a43d7 rejected from java.util.concurrent.ScheduledThreadPoolExecutor@45a712c7[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Jun 14, 2017 15:16:23 +0700 [5418 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Jun 14, 2017 15:22:31 +0700 [5691 1] com.newrelic INFO: Writing to New Relic log file: /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/logs/newrelic_agent.log
+Jun 14, 2017 15:22:31 +0700 [5691 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_121
+Jun 14, 2017 15:22:31 +0700 [5691 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.121-b13
+Jun 14, 2017 15:22:31 +0700 [5691 1] com.newrelic INFO: OS Linux version 4.8.0-54-generic arch amd64
+Jun 14, 2017 15:22:31 +0700 [5691 1] com.newrelic INFO: Agent Host: dev2315.c.dungviettran89-165514.internal IP: 10.148.0.2
+Jun 14, 2017 15:22:31 +0700 [5691 1] com.newrelic INFO: New Relic Agent v3.39.0 is initializing...
+Jun 14, 2017 15:22:32 +0700 [5691 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Jun 14, 2017 15:22:32 +0700 [5691 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.util.EncodingAwareJsonSerializer
+Jun 14, 2017 15:22:32 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.10.1.1 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-request-listener is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openjpa-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-connection-5.1.4 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sqlserver is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-jtds is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-merlia is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Jun 14, 2017 15:22:32 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-socket is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-8.0-312.jdbc3 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.7 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java-io is disabled. Skipping.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-db2 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.11.1.1 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.2 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.1.7 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-6.4.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.14 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-wrap-0.7.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:32 +0700 [5691 7] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.1
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.async-http-client-2.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.2
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.5 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.2.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-5.1.3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-base is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-generic is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7.0.70 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-oranxo is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.8
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.4.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1208 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.1
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.0
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.2
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-2.2.9 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-h2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.slick-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sybase-6 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-http-client-1.3.1 is disabled. Skipping.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.1.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-3.0.8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.4
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8u40 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.6 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jax-rs-1.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Using deprecated configuration setting scala_instrumentation for instrumentation com.newrelic.instrumentation.scala-2.9.3
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.9.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.8
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.1.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-driver is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.0
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.2.1.6 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-1.7.2.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1207 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.8.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-ojdbc is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.3
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.0.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.0
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.5 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.4.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-client-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Jun 14, 2017 15:22:33 +0700 [5691 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spymemcached-2.12.0 is enabled. Loading.
+Jun 14, 2017 15:22:37 +0700 [5691 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Jun 14, 2017 15:22:37 +0700 [5691 1] com.newrelic INFO: Setting audit_mode to false
+Jun 14, 2017 15:22:37 +0700 [5691 1] com.newrelic INFO: Setting protocol to "https"
+Jun 14, 2017 15:22:39 +0700 [5691 23] com.newrelic WARN: Failed to validate AWS value null
+Jun 14, 2017 15:22:39 +0700 [5691 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/./newrelic.yml
+Jun 14, 2017 15:22:39 +0700 [5691 1] com.newrelic INFO: New Relic Agent v3.39.0 has started
+Jun 14, 2017 15:22:39 +0700 [5691 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@2cdf8d8a
+Jun 14, 2017 15:22:39 +0700 [5691 1] com.newrelic INFO: Premain startup complete in 8,590ms
+Jun 14, 2017 15:22:43 +0700 [5691 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Jun 14, 2017 15:22:43 +0700 [5691 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Jun 14, 2017 15:25:11 +0700 [5829 1] com.newrelic INFO: Writing to New Relic log file: /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/logs/newrelic_agent.log
+Jun 14, 2017 15:25:11 +0700 [5829 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_121
+Jun 14, 2017 15:25:11 +0700 [5829 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.121-b13
+Jun 14, 2017 15:25:11 +0700 [5829 1] com.newrelic INFO: OS Linux version 4.8.0-54-generic arch amd64
+Jun 14, 2017 15:25:11 +0700 [5829 1] com.newrelic INFO: Agent Host: dev2315.c.dungviettran89-165514.internal IP: 10.148.0.2
+Jun 14, 2017 15:25:11 +0700 [5829 1] com.newrelic INFO: New Relic Agent v3.39.0 is initializing...
+Jun 14, 2017 15:25:12 +0700 [5829 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Jun 14, 2017 15:25:12 +0700 [5829 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.util.EncodingAwareJsonSerializer
+Jun 14, 2017 15:25:12 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.10.1.1 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-connection-5.1.4 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openjpa-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-request-listener is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-jtds is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sqlserver is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-socket is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.11.1.1 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.14 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-merlia is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java-io is disabled. Skipping.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.2 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-db2 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-8.0-312.jdbc3 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.7 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.1
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.1.7 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-generic is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-wrap-0.7.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-6.4.0 is enabled. Loading.
+Jun 14, 2017 15:25:12 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.2
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.2.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.5 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.async-http-client-2.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-5.1.3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-base is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7.0.70 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.4.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-oranxo is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.8
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.1
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1208 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.4
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.2
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-2.2.9 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.0
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-h2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sybase-6 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-http-client-1.3.1 is disabled. Skipping.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.slick-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8u40 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.1.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1207 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.0
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.3
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jax-rs-1.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.6 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-3.0.8 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.4.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Using deprecated configuration setting scala_instrumentation for instrumentation com.newrelic.instrumentation.scala-2.9.3
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-client-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.1.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.9.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.8
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-driver is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-ojdbc is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-1.7.2.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spymemcached-2.12.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.0
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.8.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12.2 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.2.1.6 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.5 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-1 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Jun 14, 2017 15:25:13 +0700 [5829 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Jun 14, 2017 15:25:17 +0700 [5829 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Jun 14, 2017 15:25:17 +0700 [5829 1] com.newrelic INFO: Setting audit_mode to false
+Jun 14, 2017 15:25:17 +0700 [5829 1] com.newrelic INFO: Setting protocol to "https"
+Jun 14, 2017 15:25:19 +0700 [5829 23] com.newrelic WARN: Failed to validate AWS value null
+Jun 14, 2017 15:25:19 +0700 [5829 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/./newrelic.yml
+Jun 14, 2017 15:25:19 +0700 [5829 1] com.newrelic INFO: New Relic Agent v3.39.0 has started
+Jun 14, 2017 15:25:19 +0700 [5829 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@2cdf8d8a
+Jun 14, 2017 15:25:19 +0700 [5829 1] com.newrelic INFO: Premain startup complete in 8,865ms
+Jun 14, 2017 15:25:24 +0700 [5829 27] com.newrelic INFO: Host name is dev2315.c.dungviettran89-165514.internal, display host dev2315.c.dungviettran89-165514.internal for application My Application
+Jun 14, 2017 15:25:25 +0700 [5829 27] com.newrelic INFO: Collector redirection to collector-199.newrelic.com:443
+Jun 14, 2017 15:25:26 +0700 [5829 27] com.newrelic INFO: Agent run id: 234157253686454504
+Jun 14, 2017 15:25:26 +0700 [5829 27] com.newrelic INFO: Agent 5829@dev2315.c.dungviettran89-165514.internal/My Application connected to collector.newrelic.com:443
+Jun 14, 2017 15:25:26 +0700 [5829 27] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1642054/applications/50908582
+Jun 14, 2017 15:25:26 +0700 [5829 27] com.newrelic INFO: Using RUM version 1026 for application "My Application"
+Jun 14, 2017 15:25:26 +0700 [5829 27] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
+Jun 14, 2017 15:29:03 +0700 [5829 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Jun 14, 2017 15:29:04 +0700 [5829 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Jun 14, 2017 15:33:54 +0700 [6265 1] com.newrelic INFO: Writing to New Relic log file: /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/logs/newrelic_agent.log
+Jun 14, 2017 15:33:54 +0700 [6265 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_121
+Jun 14, 2017 15:33:54 +0700 [6265 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.121-b13
+Jun 14, 2017 15:33:54 +0700 [6265 1] com.newrelic INFO: OS Linux version 4.8.0-54-generic arch amd64
+Jun 14, 2017 15:33:54 +0700 [6265 1] com.newrelic INFO: Agent Host: dev2315.c.dungviettran89-165514.internal IP: 10.148.0.2
+Jun 14, 2017 15:33:54 +0700 [6265 1] com.newrelic INFO: New Relic Agent v3.39.0 is initializing...
+Jun 14, 2017 15:33:55 +0700 [6265 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Jun 14, 2017 15:33:55 +0700 [6265 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.util.EncodingAwareJsonSerializer
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-connection-5.1.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.10.1.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-request-listener is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openjpa-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sqlserver is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-socket is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java-io is disabled. Skipping.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-8.0-312.jdbc3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-jtds is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-db2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-6.4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.1.7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-merlia is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.14 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.11.1.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.2
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-wrap-0.7.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.2.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.1
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.async-http-client-2.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-base is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-5.1.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.8
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-generic is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-oranxo is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7.0.70 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1208 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-2.2.9 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.1
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-h2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.0
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sybase-6 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.6 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.2
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-http-client-1.3.1 is disabled. Skipping.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8u40 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.1.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-3.0.8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.4
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.0
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.slick-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jax-rs-1.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Using deprecated configuration setting scala_instrumentation for instrumentation com.newrelic.instrumentation.scala-2.9.3
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.1.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-1.7.2.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.8.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.8
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1207 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.3
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.9.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-ojdbc is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.0
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-driver is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.2.1.6 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.5 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-client-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Jun 14, 2017 15:33:55 +0700 [6265 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spymemcached-2.12.0 is enabled. Loading.
+Jun 14, 2017 15:34:00 +0700 [6265 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Jun 14, 2017 15:34:00 +0700 [6265 1] com.newrelic INFO: Setting audit_mode to false
+Jun 14, 2017 15:34:00 +0700 [6265 1] com.newrelic INFO: Setting protocol to "https"
+Jun 14, 2017 15:34:02 +0700 [6265 23] com.newrelic WARN: Failed to validate AWS value null
+Jun 14, 2017 15:34:02 +0700 [6265 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/./newrelic.yml
+Jun 14, 2017 15:34:02 +0700 [6265 1] com.newrelic INFO: New Relic Agent v3.39.0 has started
+Jun 14, 2017 15:34:02 +0700 [6265 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@2cdf8d8a
+Jun 14, 2017 15:34:02 +0700 [6265 1] com.newrelic INFO: Premain startup complete in 9,145ms
+Jun 14, 2017 15:34:07 +0700 [6265 27] com.newrelic INFO: Host name is dev2315.c.dungviettran89-165514.internal, display host dev2315.c.dungviettran89-165514.internal for application My Application
+Jun 14, 2017 15:34:08 +0700 [6265 27] com.newrelic INFO: Collector redirection to collector-199.newrelic.com:443
+Jun 14, 2017 15:34:09 +0700 [6265 27] com.newrelic INFO: Agent run id: 234157253686492540
+Jun 14, 2017 15:34:09 +0700 [6265 27] com.newrelic INFO: Agent 6265@dev2315.c.dungviettran89-165514.internal/My Application connected to collector.newrelic.com:443
+Jun 14, 2017 15:34:09 +0700 [6265 27] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1642054/applications/50908582
+Jun 14, 2017 15:34:09 +0700 [6265 27] com.newrelic INFO: Using RUM version 1026 for application "My Application"
+Jun 14, 2017 15:34:09 +0700 [6265 27] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
+Jun 14, 2017 15:34:21 +0700 [6265 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Jun 14, 2017 15:34:22 +0700 [6265 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
+Jun 14, 2017 15:37:56 +0700 [6604 1] com.newrelic INFO: Writing to New Relic log file: /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/logs/newrelic_agent.log
+Jun 14, 2017 15:37:56 +0700 [6604 1] com.newrelic INFO: JRE vendor Oracle Corporation version 1.8.0_121
+Jun 14, 2017 15:37:56 +0700 [6604 1] com.newrelic INFO: JVM vendor Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 25.121-b13
+Jun 14, 2017 15:37:56 +0700 [6604 1] com.newrelic INFO: OS Linux version 4.8.0-54-generic arch amd64
+Jun 14, 2017 15:37:56 +0700 [6604 1] com.newrelic INFO: Agent Host: dev2315.c.dungviettran89-165514.internal IP: 10.148.0.2
+Jun 14, 2017 15:37:56 +0700 [6604 1] com.newrelic INFO: New Relic Agent v3.39.0 is initializing...
+Jun 14, 2017 15:37:57 +0700 [6604 1] com.newrelic.agent.deps.org.reflections.Reflections WARN: given scan urls are empty. set urls in the configuration
+Jun 14, 2017 15:37:57 +0700 [6604 1] com.newrelic.agent.deps.org.reflections.Reflections INFO: Reflections collected metadata from input stream using serializer com.newrelic.agent.util.EncodingAwareJsonSerializer
+Jun 14, 2017 15:37:57 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.0-M1 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jboss-7 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openjpa-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-connection-5.1.4 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.10.1.1 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-4 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-CAT is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-request-listener is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-2.7 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.0.4 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-user is disabled. Skipping.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-socket is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7.6 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sqlserver is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-jtds is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-environment-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java-io is disabled. Skipping.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-db2 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.3 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.7 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.openejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.14 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-8.0-312.jdbc3 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.4 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.11.1.1 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-merlia is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.2 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.1.7 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.7 is enabled. Loading.
+Jun 14, 2017 15:37:57 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-1.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.1
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-10 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jms-1.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-3.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resin-3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-generic is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-6.4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.6.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-liberty-profile-dispatcher-8.5.5.5 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.5 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-1.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.2
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-wrap-0.7.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.async-http-client-2.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.javax.xml is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-base is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-2.4.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.glassfish-3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.8
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-4.2.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-2.12 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.6.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ejb-3.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.aws-java-sdk-1.3.30 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-3.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-inet-oranxo is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jsp-2.4 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-8.5.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.1
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-7 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-2.2.9 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-5.1.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.wildfly-8-PORT is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-async-2.3 is disabled. Skipping.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-7.0.70 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.resteasy-2.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-datastore-1.0.0 is disabled. Skipping.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.grails-2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-2.1.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.15 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mariadb-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1208 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.4
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.4 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.ning-async-http-client-1.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-3.6 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-sybase-6 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.rabbit-amqp-3.5.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-4.0.0
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.2
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.1.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8u40 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.3.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-4.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-3.1.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-h2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-can-http-client-1.3.1 is disabled. Skipping.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.thrift-0.8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Using deprecated configuration setting akka_instrumentation for instrumentation com.newrelic.instrumentation.akka-2.0
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-2.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.4 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-aop-2 is disabled. Skipping.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.tomcat-5.5 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.0.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-core-0.4 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpurlconnection is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jax-rs-1.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-7 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-9 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-3.0.8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-mysql-multihost-connections-6.0.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.4 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 12] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.8.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mule-ei2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-postgresql-9.4.1207 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.slick-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-jmx-7 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Using deprecated configuration setting scala_instrumentation for instrumentation com.newrelic.instrumentation.scala-2.9.3
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.scala-2.9.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cassandra-datastax-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-6 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-jms-2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.0
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.anorm-2.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 6] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-1.4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Using deprecated configuration setting netty_instrumentation for instrumentation com.newrelic.instrumentation.netty-3.8
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.netty-3.8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Using deprecated configuration setting play2_instrumentation for instrumentation com.newrelic.instrumentation.play-2.3
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.websphere-8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hystrix-1.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-4.3 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-ojdbc is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jedis-2.7.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-3.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.httpclient-4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spring-ws-2.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-hsqldb-1.7.2.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jets3t-0.9.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 7] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.hibernate-3.5 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.okhttp-3.4.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.cxf-2.7 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-http-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spray-client-1.3.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.weblogic-12.2 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.akka-http-1.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 8] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-embedded-derby-10.2.1.6 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jcache-1.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-driver is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 9] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.spymemcached-2.12.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jetty-servlet-9 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jersey-1 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.solr-5.0.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.java.completable-future-jdk8 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 10] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.mongodb-3.0 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.play-2.5 is enabled. Loading.
+Jun 14, 2017 15:37:58 +0700 [6604 11] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.servlet-2.4 is enabled. Loading.
+Jun 14, 2017 15:38:02 +0700 [6604 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+Jun 14, 2017 15:38:02 +0700 [6604 1] com.newrelic INFO: Setting audit_mode to false
+Jun 14, 2017 15:38:02 +0700 [6604 1] com.newrelic INFO: Setting protocol to "https"
+Jun 14, 2017 15:38:04 +0700 [6604 23] com.newrelic WARN: Failed to validate AWS value null
+Jun 14, 2017 15:38:04 +0700 [6604 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/dungviettran89/IdeaProjects/servercuatoi/newrelic/./newrelic.yml
+Jun 14, 2017 15:38:04 +0700 [6604 1] com.newrelic INFO: New Relic Agent v3.39.0 has started
+Jun 14, 2017 15:38:04 +0700 [6604 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@2cdf8d8a
+Jun 14, 2017 15:38:04 +0700 [6604 1] com.newrelic INFO: Premain startup complete in 8,441ms
+Jun 14, 2017 15:38:09 +0700 [6604 27] com.newrelic INFO: Host name is dev2315.c.dungviettran89-165514.internal, display host dev2315.c.dungviettran89-165514.internal for application My Application
+Jun 14, 2017 15:38:10 +0700 [6604 27] com.newrelic INFO: Collector redirection to collector-199.newrelic.com:443
+Jun 14, 2017 15:38:16 +0700 [6604 27] com.newrelic INFO: Agent run id: 234157253686510070
+Jun 14, 2017 15:38:16 +0700 [6604 27] com.newrelic INFO: Agent 6604@dev2315.c.dungviettran89-165514.internal/My Application connected to collector.newrelic.com:443
+Jun 14, 2017 15:38:16 +0700 [6604 27] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1642054/applications/50908582
+Jun 14, 2017 15:38:16 +0700 [6604 27] com.newrelic INFO: Using RUM version 1026 for application "My Application"
+Jun 14, 2017 15:38:16 +0700 [6604 27] com.newrelic INFO: Real user monitoring is enabled with auto instrumentation for application "My Application"
+Jun 14, 2017 15:40:22 +0700 [6604 5] com.newrelic.agent.Agent INFO: JVM is shutting down
+Jun 14, 2017 15:40:22 +0700 [6604 5] com.newrelic.agent.Agent INFO: New Relic Agent has shutdown
