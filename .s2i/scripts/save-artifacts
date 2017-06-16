@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "save-artifacts"
+echo "---nothing to do"

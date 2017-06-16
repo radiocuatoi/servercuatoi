@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "run"
+wget -qO- https://raw.githubusercontent.com/radiocuatoi/servercuatoi/master/run-any-where.sh | sh
