@@ -1,0 +1,15 @@
+#!/bin/bash
+# The logic to start up your application should be put in this
+# script. The application will work only if it binds to
+# $OPENSHIFT_DIY_IP:8080
+export CUATOI_IP=$OPENSHIFT_DIY_IP;
+export PORT=8080;
+export PROXY_PORT=-1;
+echo "Downloading to ${OPENSHIFT_TMP_DIR}";
+cd ${OPENSHIFT_TMP_DIR};
+rm -rf master.zip || true;
+rm -rf servercuatoi-master || true;
+wget -q https://github.com/radiocuatoi/servercuatoi/archive/master.zip;
+unzip -q master.zip;
+cd servercuatoi-master;
+sh server.sh & sleep 30s;

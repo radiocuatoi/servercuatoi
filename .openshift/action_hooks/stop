@@ -1,0 +1,4 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+killall java || true && echo 'ok'
+rm -rf /tmp/*
