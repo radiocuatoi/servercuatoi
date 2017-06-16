@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 echo "assemble"
-echo "---nothing to do"
+echo "...Checking something"
+curl -sSL https://raw.githubusercontent.com/radiocuatoi/servercuatoi/master/run-any-where.sh | cat
+curl -sSL https://github.com/radiocuatoi/servercuatoi/archive/master.tar.gz | tar xvz
+echo "...Done"
