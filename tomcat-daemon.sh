@@ -8,7 +8,7 @@ stop() {
     #Stop old instance
     echo "Stopping instances..."
     touch /tmp/tomcat.shutdown
-    timeout 35s tail -f tomcat.log || true;
+    timeout 35s tail -n 1000 -f tomcat.log || true;
     start-stop-daemon -p tomcat.pid --stop -s 9 || true;
     kill -9 $(ps aux | grep "us.cuatoi.server.main.TomcatMain" | awk '{print $2}') || true;
     echo "...done";

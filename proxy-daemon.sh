@@ -8,7 +8,7 @@ stop() {
     #Stop old instance
     echo "Stopping instances..."
     touch /tmp/proxy.shutdown
-    timeout 35s tail -f proxy.log || true;
+    timeout 35s tail -n 1000 -f proxy.log || true;
     start-stop-daemon -p proxy.pid --stop -s 9 || true;
     kill -9 $(ps aux | grep "us.cuatoi.server.main.ProxyMain" | awk '{print $2}') || true;
     echo "...done";
