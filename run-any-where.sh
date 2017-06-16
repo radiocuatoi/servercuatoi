@@ -19,4 +19,4 @@ wget https://github.com/radiocuatoi/servercuatoi/archive/master.zip
 unzip master.zip
 rm -rf master.zip
 cd servercuatoi-master
-sh server.sh
+sh tomcat.sh
