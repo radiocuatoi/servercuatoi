@@ -1,5 +1,5 @@
 #!/bin/sh
-kill -9 $(ps aux | grep "us.cuatoi.server.cloud.CloudServer" | awk '{print $2}') || true
+kill -9 $(ps aux | grep "us.cuatoi.server.main.TomcatMain" | awk '{print $2}') || true
 export DOWNLOAD_DIR="$HOME";
 if [ ! -d "${DOWNLOAD_DIR}" ]; then
     echo "${DOWNLOAD_DIR} not found. Using tmp.";
