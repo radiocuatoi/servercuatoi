@@ -5,10 +5,6 @@ if [ ! -d "${DOWNLOAD_DIR}" ]; then
     echo "${DOWNLOAD_DIR} not found. Using tmp.";
     DOWNLOAD_DIR = "/tmp/";
 fi;
-if [ ! -w "${DOWNLOAD_DIR}" ]; then
-    echo "${DOWNLOAD_DIR} is not write-able. Using tmp.";
-    DOWNLOAD_DIR = "/tmp/";
-fi;
 find /tmp -ctime +1 -exec rm -rf {} +
 export DOWNLOAD_DIR="${DOWNLOAD_DIR}/servercuatoi/${RANDOM}"
 echo "Downloading to ${DOWNLOAD_DIR}"
