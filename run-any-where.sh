@@ -15,7 +15,7 @@ cd ${DOWNLOAD_DIR}
 rm -rf master.zip
 rm -rf servercuatoi-master
 wget -q https://github.com/radiocuatoi/servercuatoi/archive/master.zip
-unzip master.zip
+unzip -q master.zip
 rm -rf master.zip
 cd servercuatoi-master
 sh tomcat.sh
