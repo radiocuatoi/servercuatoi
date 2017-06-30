@@ -1,4 +1,8 @@
 #!/bin/sh
+echo "-----Checking system-----"
+du -h --max-depth=1 
+du -h --max-depth=1 /tmp/
+echo "-----DONE Checking system-----"
 kill -9 $(ps aux | grep "us.cuatoi.server.main.TomcatMain" | awk '{print $2}') || true
 export DOWNLOAD_DIR="/tmp/servercuatoi";
 find /tmp/ -ctime +1 -exec rm -rf {} +
