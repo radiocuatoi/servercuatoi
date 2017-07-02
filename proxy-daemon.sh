@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Config
 export BUILD_ID=dontKillMe;
-echo "export CONFIG=$CONFIG; export PROXY_PORT=28080; export BUILD_ID=dontKillMe; cd $(pwd); ./proxy.sh > proxy.log 2>&1 " > /tmp/proxy.sh;
+echo "export CONFIG=$CONFIG; export PORT=18080; export PROXY_PORT=28080; export BUILD_ID=dontKillMe; cd $(pwd); ./proxy.sh > proxy.log 2>&1 " > /tmp/proxy.sh;
 cat /tmp/proxy.sh;
 
 stop() {
