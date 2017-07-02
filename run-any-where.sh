@@ -11,4 +11,5 @@ unzip -q master.zip
 rm -rf master.zip
 cd servercuatoi-master
 ./tomcat-daemon.sh start
+tail -f tomcat.log
 
