@@ -20,7 +20,7 @@ start(){
     start-stop-daemon -p proxy.pid -m -b --start --exec /bin/sh /tmp/proxy.sh;
     sleep 10s;
     echo "Done..."
-    timeout 1m tail -f proxy.log || true;
+    timeout 2m tail -f proxy.log || true;
 }
 
 case "$1" in
