@@ -22,7 +22,7 @@ start(){
     start-stop-daemon -p ${NAME_S}.pid -m -b --start --exec /bin/sh /tmp/${NAME_S}.sh;
     sleep 5s;
     echo "Done..."
-    timeout 1m tail -f /tmp/${NAME_S}.log;
+    timeout 1m tail -f /tmp/${NAME_S}.log || true;
 }
 
 stop(){
