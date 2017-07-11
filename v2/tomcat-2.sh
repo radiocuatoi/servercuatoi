@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-export JAVA_OPTS=" $JAVA_OPTS -Xss512k -Xms128m -Xmx384m ";
-export JAVA_OPTS=" $JAVA_OPTS -server -javaagent:../newrelic/newrelic.jar "
-export JAVA_OPTS=" $JAVA_OPTS -Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=true -Duser.timezone=Asia/Ho_Chi_Minh "
-../jre/bin/java -cp "../app/*" ${JAVA_OPTS} us.cuatoi.server2.TomcatMain2
+export CLASS_S=us.cuatoi.server2.TomcatMain2;
+export PORT_S=28789;
+export PROXY_PORT_S=28790;
+export NAME_S=tomcat
+common/all.sh $1
