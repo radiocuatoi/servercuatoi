@@ -27,7 +27,7 @@ start(){
 
 stop(){
     echo "Stopping instances..."
-    touch ${NAME_S}.shutdown;
+    touch /tmp/${NAME_S}.shutdown;
     sleep 20s
     start-stop-daemon -p /tmp/${NAME_S}.pid --stop -s 9 || true;
     kill -9 $(ps aux | grep "$CLASS_S" | awk '{print $2}') || true;
