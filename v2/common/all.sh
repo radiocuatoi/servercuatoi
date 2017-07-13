@@ -19,7 +19,7 @@ start(){
     echo "cd $(pwd); common/run.sh ${CLASS_S} > /tmp/${NAME_S}.log 2>&1" >> /tmp/${NAME_S}.sh
     cat /tmp/${NAME_S}.sh;
 
-    start-stop-daemon -p ${NAME_S}.pid -m -b --start --exec /bin/sh /tmp/${NAME_S}.sh;
+    start-stop-daemon -p /tmp/${NAME_S}.pid -m -b --start --exec /bin/sh /tmp/${NAME_S}.sh;
     sleep 5s;
     echo "Done..."
     timeout 1m tail -f /tmp/${NAME_S}.log || true;
@@ -29,7 +29,7 @@ stop(){
     echo "Stopping instances..."
     touch ${NAME_S}.shutdown;
     sleep 20s
-    start-stop-daemon -p ${NAME_S}.pid --stop -s 9 || true;
+    start-stop-daemon -p /tmp/${NAME_S}.pid --stop -s 9 || true;
     kill -9 $(ps aux | grep "$CLASS_S" | awk '{print $2}') || true;
     echo "...done";
 }
